@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default;
+ }
+
+ :root {
+  --bg-color: linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%);
+  --text-color: black;
+}
+
+.dark-mode {
+  --bg-color: linear-gradient(180deg, #040918 0%, #091540 100%);
+  --text-color: #f5f5f5;
+  --nav-bar: hsl(224, 26%, 16%);
+}
+
+@theme {
+  --color-lightgray: hsl(226, 11%, 37%);
+}
+
+body {
+  min-height: 100vh;
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.3s, color 0.3s;
+}
+
+.navbar {
+  background-color: var(--nav-bar);
+}
