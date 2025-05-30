@@ -25,4 +25,5 @@ A sleek and responsive user interface for managing browser extensions, built as 
 ![Dark Mode Screenshot](./screenshots/dark-mode.png)
 
 ### Mobile View  
+<div style="display:flex; justify-content: center;"><div>
 ![Mobile View Screenshot](./screenshots/mobile-view.png)
