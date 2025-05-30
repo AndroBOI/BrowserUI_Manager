@@ -56,10 +56,7 @@ const App = () => {
         </div>
       </div>
 
-      {/* optional logo */}
-      {/* <img src={logoDevLens} alt="DevLens logo" className="my-8 w-32" /> */}
-
-      {/* list */}
+  
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-10">
         {exList
           .filter(item => {
